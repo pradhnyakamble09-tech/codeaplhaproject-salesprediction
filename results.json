@@ -1,0 +1,46 @@
+{
+  "model_results": {
+    "Linear Regression": {
+      "R2": 0.8636,
+      "RMSE": 1.496,
+      "MAE": 1.203,
+      "CV_R2_mean": 0.8835
+    },
+    "Ridge Regression": {
+      "R2": 0.8636,
+      "RMSE": 1.496,
+      "MAE": 1.201,
+      "CV_R2_mean": 0.8835
+    },
+    "Random Forest": {
+      "R2": 0.8545,
+      "RMSE": 1.545,
+      "MAE": 1.25,
+      "CV_R2_mean": 0.8701
+    },
+    "Gradient Boosting": {
+      "R2": 0.8791,
+      "RMSE": 1.408,
+      "MAE": 1.154,
+      "CV_R2_mean": 0.9156
+    }
+  },
+  "best_model": "Gradient Boosting",
+  "advertising_impact_20pct_increase": {
+    "TV": {
+      "baseline_sales": 16.17,
+      "sales_after_20pct_increase": 17.95,
+      "estimated_lift": 1.78
+    },
+    "Radio": {
+      "baseline_sales": 16.17,
+      "sales_after_20pct_increase": 16.564,
+      "estimated_lift": 0.394
+    },
+    "Newspaper": {
+      "baseline_sales": 16.17,
+      "sales_after_20pct_increase": 16.15,
+      "estimated_lift": -0.019
+    }
+  }
+}
